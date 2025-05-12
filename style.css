@@ -1,0 +1,1644 @@
+
+:root{
+    --base-color-red-60:#eb1700ff;
+    --base-color-white:rgb(255, 255, 255);
+    --text-color:#323232;
+    --font-reg:"Regular";
+    --font-bold:"Bold";
+    --font-med:"Medium";
+    --font-ebold:"E-bold";
+    --button-primary:#eb1700ff;
+    --subhead-color:#8a8a8a;
+}
+.about-us-container {
+    box-sizing: border-box;
+  }
+.qualitiesImages, ::after, ::before {
+    box-sizing: border-box;
+}
+.qualitiesImages img, ::after, ::before {
+    box-sizing: border-box;
+}
+.scrollingAboutUsContainer, ::after, ::before {
+    box-sizing: border-box;
+}
+.scrollingAboutUsContainer img,::after, ::before {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.adContainer{
+    overflow-x: hidden;
+}
+.ad{
+    max-width: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto 1fr auto;
+    padding: 8px 8px 4px 8px;
+    column-gap: 8px;
+}
+.logoContainer{
+    flex-shrink: 0;
+    align-self: center;
+    grid-area: 2 / 1;
+}
+.logo{
+    border-radius: 12px;
+    border: 1px solid #f1f1f1;
+    margin: 16px 0 0 0;
+}
+.adTextContainer{
+    flex-grow: 1;
+    margin-top: 16px;
+    flex-basis: 100%;
+    grid-area: 2 / 2;
+    overflow: hidden;
+}
+.header{
+    color: var(--text-color);
+    font-family: var(--font-bold);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    text-decoration:none ;
+    text-transform: none;
+    display: block;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+}
+#star1{
+    margin: 0 2px;
+}
+#star{
+    margin-right:2px ;
+}
+.subhead{
+    color: var(--subhead-color);
+    font-family: var(--font-med);
+    font-size:14px;
+    font-weight:500;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+}
+.paraContainer{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.paraText{
+    margin-left: 4px;
+    color: var(--subhead-color);
+    font-family: var(--font-med);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px;
+}
+.adopen{
+    display: inline-flex;
+    position: relative;
+    max-width: 100%;
+    min-height: 32px;
+    width: auto;
+    padding: 0 12px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 16px;
+    border: none;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--button-primary);
+    box-shadow: 0 0 0 1px solid #19191900;
+    color: var(--base-color-white);
+    margin-right: 16px;
+    margin-top: 12px;
+}
+.adloginbuttonContainer{
+    align-self: center;
+    grid-area: 2 / 3;
+}
+.adopenbutton{
+    color: var(--base-color-white);
+    font-family: var(--font-bold);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing:-0.01px;
+    text-decoration:none;
+    text-transform: none;
+    display: block;
+    padding: 0px;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.backgroundContainer{
+    background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_mobile.png);
+    height: 550px;
+    padding: 0px 8px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    overflow-x: hidden;
+    width: 100%;
+    z-index: 1;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.doordashTextlogoContainer{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.textAndLogo{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.doordashtextContainer{
+    line-height: 0;
+    margin-left: 8px;
+
+}
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutTextContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.aboutText{
+    max-width: 350px;
+    letter-spacing: 0;
+    font-size: 22px;
+    line-height: 28px;
+    color: var(--base-color-white);
+    text-align: center;
+    font-family: var(--font-bold);
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+.navContainer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 90px;
+    margin-top: 21px;
+    z-index: 1;
+}
+.navBar{
+    padding-left: 16px;
+    padding-right: 24px ;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+.loginButton{
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 12px 0 11.5px;
+    display: inline-flex;
+    min-height: 32px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: inset 0 0 0 1px #19191900;
+    color:#191919ff;
+}
+.loginText{
+    color: var(--text-color);
+    font-family: var(--font-bold);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01;
+    text-transform: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+
+}
+.openAppButton{
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 12px;
+    display: inline-flex;
+    min-height: 32px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--button-primary);
+    box-shadow: inset 0 0 0 1px #19191900;
+    color:#191919ff;
+}
+.openAppText{
+    color: var(--base-color-white);
+    font-family: var(--font-bold);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.inputAndLoginContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.inputButtonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.inputContainer{
+    border-radius: 32px;
+    background-color:#ffffff;
+    max-width: 100%;
+    display: flex;
+    min-height: 40px;
+    font-family: var(--font-bold);
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    font-weight: 500;
+    color: var(--text-color);
+    align-items: center;
+    padding: 6px 16px;
+    border:none;
+    box-shadow: inset 0 0 0 1px #19191900;
+}
+.searchIcon{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    pointer-events: none;
+}
+.inputText{
+    flex-grow: 1;
+    margin: 0 10px 0 auto;
+    max-width: 100%;
+    text-align: center;
+}
+.input{
+    text-overflow: ellipsis;
+    font-family: var(--font-med);
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    font-weight: 500;
+    width: 100%;
+    border:none;
+    outline: none;
+    display: flex;
+    color: var(--text-color);
+    background-color: #ffffff;
+}
+.arrowContainer{
+    max-width: 100%;
+}
+.arrow{
+    position: relative;
+    max-width: 100%;
+    margin: 0px;
+    display: inline-flex;
+    min-height: 40px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: inset 0 0 0 1px #19191900;
+    color: var(--text-color);
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.loginProfileContainer{
+    margin-top: 16px;
+    position: relative;
+    max-width: 100%;
+    display: inline-flex;
+    min-height: 32px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 16px;
+    padding: 0 12px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: inset 0 0 0 1px #19191900
+    , 0px 2px 8px 0px #19191933;
+    color: var(--text-color);
+}
+.loginProfile{
+    flex-grow: 1;
+    max-width: 100%;
+    transition: opacity 0.15s ease-in-out;
+    opacity: 1;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.profileIcon{
+    flex-grow: 1;
+    flex-shrink: 2;
+    min-width: 0px;
+    display: flex;
+    justify-content: flex-start;
+    width: 16px;
+    align-items: center;
+}
+.loginTextContainer{
+    flex-grow: 2;
+    min-width: 0px;
+    padding-left: 4px;
+    display: flex;
+    justify-content: center;
+}
+.loginText2{
+    color: var(--text-color);
+    font-family: var(--font-bold);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    display: block;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+.adTwo{
+    width: 100%;
+    margin: 0px auto;
+    flex: 1 0 auto;
+}
+.adTwoContainer{
+    margin: 20px 20px 0;
+}
+.adPopUp{
+    max-width: 100%;
+    display: block;
+    border-radius: 12px;
+    border: 1px solid #f1f1f1ff;
+    padding: 20px;
+    background-color: #F7F7F7;
+}
+.popupContainer{
+    display: flex;
+    text-align: left;
+}
+.header2{
+    color: var(--text-color);
+    font-family: var(--font-bold), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+}
+#starone{
+    margin: 0 2px;
+}
+#star{
+    margin-right:2px ;
+}
+.subhead2{
+    color: var(--subhead-color);
+    font-family: var(--font-med);
+    font-size:14px;
+    font-weight:500;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 2px 0 0 4px;
+    padding: 0px;
+}
+.logoContainerTwo{
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    border: 1px solid #f1f1f1ff;
+    background-color: #FFFFFF;
+    margin-right: 8px;
+    padding: 8px;
+}
+.paraContainer2{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 2px;
+}
+.continueInAppButtonContainer{
+    margin-top: 16px;
+    position: relative;
+    max-width: 100%;
+    padding: 0;
+    display: flex;
+    min-height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--button-primary);
+    box-shadow: inset 0 0 0 1px #19191900;
+    color: #FFFFFF;
+}
+.continueInAppButton{
+    display: block;
+    flex-grow: 1;
+    max-width: 100%;
+    transition: opacity 0.15s ease-in-out;
+    opacity: 1;
+    padding: 0 12px;
+}
+.continueInAppText{
+    font-family: var(--font-bold);
+    font-size:16px;
+    color: var(--base-color-white);
+}
+.aboutUsMainContainer{
+    max-width: 768px;
+    margin: 0px auto;
+}
+.aboutUsContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 0 0 0  ;
+    max-width: 100%;
+    padding: 8px 8px;
+}
+.aboutUsSeparatingContainer{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+.becomeaDasher{
+    display: flex;
+    flex-flow: row;
+}
+.paddingForDasher{
+    padding: 16px 16px;
+    max-width: 100%;
+}
+.becomeDasherImageContaier{
+    margin-right: 32px;
+}
+.becomeDasherImageContaier img{
+    height: 88px;
+    width: 88px;
+}
+.becomeDasherTextContainer{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    max-width: 250px;
+}
+.dasherText{
+    max-width: 100%;
+    display: block;
+}
+.dasherHeader{
+    color: var(--text-color);
+    font-family: var(--font-bold);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.dasherSubHead{
+    margin-top: 0px;
+    color: var(--text-color);
+    font-family: var(--font-med);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    margin: 0;
+}
+.startEarningButton{
+    border: 0px;
+    padding: 0px;
+    margin: 12px 0 0 0;
+    outline: 0px;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.startEarningText{
+    color: var(--button-primary);
+    font-family: var(--font-bold), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: none;
+    text-decoration: -0.01px;
+    text-transform: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.qualitiesMainContainer{
+    width: 100%;
+}
+.qualitiesTemplateContainer{
+    width: 100%;
+}
+.qualiiesTemplate{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+.marginMinus{
+    margin-bottom: -300px;
+}
+.qualitiesImages{
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.qualitiesImage{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.qualitiesTexts{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    z-index: 1;
+}
+.qualitiesHeader{
+    text-align: left;
+    max-width: 90%;
+    margin-top: 24px;
+    margin-bottom: 0;
+    color: var(--text-color);
+    font-family: var(--font-bold);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.01px;
+    text-decoration:none;
+    text-transform: none;
+    display: block;
+    padding: 0px;
+}
+.qualitiesSubhead{
+    text-align: left;
+    margin-top: 10px;
+    color: var(--text-color);
+    font-family: var(--font-bold);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    text-decoration:none;
+    text-transform: none;
+    display: block;
+    padding: 0px;
+}
+.qualitiesPara{
+    text-align: left;
+    margin-top: 10px;
+    color: var(--text-color);
+    font-family: var(--font-med);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-decoration:none;
+    text-transform: none;
+    display: block;
+    padding: 0px;
+}
+.qualitiesButtonContainer{
+    margin-top: 20px;
+
+}
+.qualitiesButton{
+    position: relative;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    min-height: 32px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--button-primary);
+}
+.boxShadow{
+    box-shadow: inset 0 0 0 1px #19191900
+    , 0px 2px 8px 0px #ffffff;
+    color: var(--base-color-white);
+}
+.qualitiesTextContainer{
+    display: block;
+    flex-grow: 1;
+    max-width: 100%;
+    transition: opacity 0.15s ease-in-out;
+    opacity: 1;
+    padding: 0 12px;
+}
+.qualitiesText{
+    color: var(--base-color-white);
+    font-family: var(--font-bold), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    display: block;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+}
+.secondTemplate{
+    background-color: rgb(254, 241, 238);
+    padding-top: 320px;
+}
+.shopGroceriesMainContainer{
+    background: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png) center center / cover;
+    position: relative;
+    height: 350px;
+}
+.shopGroceriesFlexContainer{
+    background-color: rgba(30, 30, 30, 0.6);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    text-align: center;
+}
+.shopGroceriesTextContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 550px;
+}
+.shopGroceriesHeader{
+    text-align: center;
+    color: var(--base-color-white);
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+    max-width: 90%;
+    margin: 20px 0 0 0;
+    text-transform: none;
+    display: block;
+    padding: 0px;
+    font-family: var(--font-bold);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+}
+.shopGroceriesSubhead{
+    text-align: center;
+    color: var(--base-color-white);
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+    text-transform: none;
+    display: block;
+    margin-top: 10px;
+    padding: 0px;
+    font-family: var(--font-bold);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+}
+.shopGroceriesPara{
+    text-align: center;
+    color: var(--base-color-white);
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+    margin-top: 10px;
+    font-family: var(--font-med);
+    font-size: 14px;
+    font-weight:500;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+}
+.todoContainer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(254, 241, 238);
+    padding: 40px 20px 20px;
+    width: 100%;
+}
+.todoText{
+    color: var(--text-color);
+    font-family: var(--font-bold);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    margin: 0;
+    max-width: 250px;
+    text-align: center;
+    padding: 0;
+}
+.scrollingAboutUsContainer{
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    background-color: rgb(254, 241, 238);
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.scrollingImageTextContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 90%;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.marginContainer{
+    margin: 0 -10% 0 5%;
+}
+.scrollerImage{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.scrollingTextContainer{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.marginForToDo{
+    margin-top: 20px;
+}
+.maxWidthForToDo{
+    max-width: 300px;
+}
+.scrollingSubHead{
+    text-align: center;
+    margin-top: 10px;
+    color: var(--text-color);
+    font-family: var(--font-med);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-decoration:none;
+    text-transform: none;
+}
+.alchoholText{
+    font-size: 12px;
+    font-family: var(--font-bold);
+    font-weight: 700;
+    line-height: 18px;
+    margin-top: 10px;
+    color: var(--text-color);
+}
+.endCreditsContainer{
+    max-width: 100%;
+    padding: 24px 16px;
+    width: 100%;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+.endTitle{
+    text-align: center;
+    margin:0 0  20px 0;
+    color: var(--text-color);
+    font-family: var(--font-bold);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.endTextsContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 24px;
+}
+.endTextsHeaderContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+}
+.endTabsContainer{
+    box-sizing: border-box;
+    width: 33.33%;
+    display: flex;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    border-bottom: 3px solid var(--text-color);
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.endTabsSelected{
+    color: var(--text-color);
+    font-family: var(--font-bold);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.endTabsNonSelected{
+    color: #606060ff;
+    font-family: var(--font-med);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.citiesContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+.citiesTextsContainer{
+    display: flex;
+    gap: 16px;
+        flex-direction: column;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 100%;
+}
+.citiesTexts{
+    text-decoration: none;
+    width: 100%;
+    white-space: nowrap;
+    display: block;
+}
+.marginBottom{
+    margin-bottom: 40px;
+}
+.cities{
+    color: var(--text-color);
+    font-family: var(--font-med);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    line-height: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.seeMoreButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;   
+}
+.seeMoreText{
+    margin-right: 8px;
+    color: var(--text-color);
+    font-family: var(--font-bold);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    padding: 0;
+}
+.seeMoreButton{
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    min-height: 40px;
+    border-radius: 50%;
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--base-color-white);
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    color: var(--text-color);
+    justify-content: center;
+    box-shadow: inset 0 0 0 1px #f1f1f1ff;
+    align-items: center;
+    border: none;
+}
+.footerContainer{
+    width: 100vw;
+    background-color: #191919;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer{
+    max-width: 1160px;
+    padding: 0 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.footerHeaderContainer{
+    text-align: center;
+    padding: 32px 0;
+    flex: 1 1 0%;
+}
+.footerHeader{
+    margin:0 0 8px 0;
+    padding: 0;
+    color: var(--base-color-white);
+    font-family: var(--font-med);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+}
+.alchoholContainer{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+.alchoholTemplateContainer{
+   display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+}
+.alchoholTextContainer{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: filter 0.2s;
+    margin-top: 8px;
+}
+.alchoholTextTemplate{
+    color: #C4C4C4;
+    font-family: var(--font-med);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.aboutUsContainer{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.getToKnowUs{
+    flex-direction: column;
+    text-align: center;
+    flex: 1 1 0%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    gap: 12px;
+}
+.footerWidth{
+        width: 1184px;
+}
+.getToKnowUsTexts{
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+}
+.getToKnowUsText{
+    text-transform: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    letter-spacing: -0.01px;
+    color: var(--base-color-white);
+    font-family: var(--font-med);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+.getToKnowUsAboutTextContainer{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: filter 0.2s;
+    margin-top: 8px;
+}
+.getToKnowUsAboutText{
+    color: rgb(175 175 175);;
+    font-family: var(--font-med);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.letUsHelpU{
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    text-align: center;
+}
+.appStoreButtonContainer{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    color: inherit;
+    text-decoration: none;
+}
+.appsButton{
+    display: flex;
+    background-color: rgb(73, 73, 73);
+    align-items: center;
+    justify-content: center;
+    padding: 2px 8px;
+    border-radius: 8px;
+    width:144px;
+}
+.display{
+    display: block;
+    z-index: 10;
+}
+.displayNone{
+    display: none;
+}
+.marginTop{
+    margin-top: 12px;
+}
+.marginTopZero{
+    margin-top:0;
+    padding: 0;
+}
+.appInstallPlatforms{
+    align-items: center;
+    flex: 1 1 0%;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    padding-top: 32px;
+    flex-direction: column;
+}
+.finallyOverContainer{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+.finallyOverTexts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+.doorDashFinalLogoContainer{
+    text-decoration: inherit;
+    cursor: pointer;
+}
+.doorDashFinalLogo{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.finallyOverText{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: filter 0.2s;
+}
+.finallyOver{
+    text-transform: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    letter-spacing: -0.01px;
+    line-height: 18px;
+    font-family: var(--font-med);
+    font-size: 12px;
+    color: rgb(175 175 175);
+    font-weight: 500;
+    box-sizing: border-box;
+}
+.visuallyHiddenText-DoorDash{
+    display: none;
+}
+.languageSelectorContainer{
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lnguageSelectorButtonContainer{
+    width: 150px;
+    text-align: center;
+}
+.languageSelectorButton{
+    background-color: var(--base-color-white);
+    border-color: #f1f1f1ff;
+    border-radius: 16px;
+}
+.languageSelector{
+    width: 100%;
+}
+.selectorContainer{
+    max-width: 100%;
+    display: block;
+}
+.selectorContainerChild{
+    display: flex;
+    min-height: 32px;
+}
+.actualSelectorButtonContainer{
+    font-family: var(--font-med), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:14px;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    font-weight: 500;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 16px;
+    z-index: 1;
+    padding: 4px 12px;
+    border: none;
+    box-shadow: inset 0 0 1px var(--base-color-white);
+    background-color: var(--base-color-white);
+}
+.globeContainer{
+    max-width: 100%;
+    margin-right:8px;
+}
+.globeSvgContainer{
+    display: flex;
+}
+.selectorRealContainer{
+    flex-grow: 1;
+    background: inherit;
+    max-width: 100%;
+    margin: 0px auto;
+}
+.lastSelectorContainer{
+    position: relative;
+    background: inherit;
+}
+.langSelector{
+    width: 100%;
+    border: none;
+    outline: none;
+    flex: 1 1 100%;
+    display: flex;
+    background: inherit;
+    color: currentcolor;
+    appearance: none;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    letter-spacing: -0.01px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: var(--font-med);
+}
+.selectDropdownIconContainer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    right: -7.5px;
+    height: 24px;
+    max-height: 100%;
+    min-height: 8px;
+    pointer-events: none;
+    background: transparent;
+    bottom: 0px;
+    margin: auto 0px;
+}
+.SocialsContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.facebook{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    text-decoration: none;
+    color: inherit;
+}
+.twitter{
+    margin-left: 12px;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    text-decoration: none;
+    color: inherit;
+}
+.desktop{
+    display: none;
+}
+@media (max-width : 767px){
+    .qualitiesImages{
+        height: 180px;
+    }
+}
+@media (max-width: 480px) {
+    .tabsSelected {
+        border-bottom: 3px solid transparent;
+        box-shadow: 0 3px 0 #191919ff;
+        padding-bottom: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .tabsNonSelected {
+        border-bottom: 2px solid transparent;
+        box-shadow: 0 2px 0 #f1f1f1ff;
+        padding-bottom: 12px;
+    }
+}
+@media (min-width: 768px) {
+    .adContainerMarginTop{
+        display: none;
+    }
+    .backgroundContainer{
+        background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png);
+        padding: 0px 8px;
+        height: 650px;
+        overflow-x: hidden;
+        width: 100%;
+        z-index: 1;
+        -webkit-box-pack: center;
+        justify-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .logoAndAboutContainer{
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .doordashTextlogoContainer{
+        margin: 24px 0;
+    }
+    .inputContainer{
+        padding: 8px 8px 8px 20px;
+        width: 100%;
+        min-width: 352px;
+    }
+    .display{
+        display: none;
+    }
+    .displayNone{
+        display: block;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        margin-top: 16px;
+        z-index: 10;
+    }
+    .loginButton{
+        background-color: var(--button-primary);
+        min-height: 40px;
+        border-radius: 9999px;
+        width: auto;
+    }
+    .loginText{
+        color: var(--base-color-white);
+        font-size: 18px;
+    }
+    .openAppButton{
+        background-color: var(--base-color-white); 
+        min-height: 40px;    
+        border-radius: 9999px;  
+        width: auto; 
+    }
+    .openAppText{
+        color: var(--subhead-color);
+        font-size: 18px;
+    }
+    .navBar{
+        padding: 0 24px 0 16px;
+    }
+    .inputContainer{
+        width: 100%;
+    }
+    .adTwoContainer{
+        display: none;
+    }
+    .becomeDasherImageContaier img{
+        width: 124px;
+        height: 124px;
+    }
+    .becomeDasherImageContaier{
+        margin-right: 64px;
+    }
+    .aboutUsContainer{
+        margin: 32px 0 32px 0;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+    .qualitiesImage{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .qualiiesTemplate{
+        justify-content: center;
+        flex-direction: row;
+    }
+    .marginMinus{
+        margin-bottom: -54px;
+    }
+    .qualitiesSeparator{
+        display: flex;
+        align-content: space-between;
+        gap: 60px;
+        max-width: 1184px;
+    }
+    .qualitiesPara{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .qualitiesSubhead{
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 24px;
+    }
+    .marginPara{
+        margin-top: 20px;
+    }
+    .qualitiesTexts{
+        max-width: 400px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .qualitiesHeader{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .qualitiesButton{
+        min-height: 40px;
+        width: auto;
+    }
+    .qualitiesButtonContainer{
+        margin-top: 30px;
+    }
+    .qualitiesText{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .secondTemplate{
+        padding: 80px 20px 20px 20px;
+    }
+    .rowReverse{
+        flex-direction: row-reverse;
+    }
+    .shopGroceriesMainContainer {
+        background: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png) center center / cover;
+        position: relative;
+        height: 600px;
+        width: 100%;
+        margin: 6px 0 0 0;
+    }
+    .shopGroceriesHeader{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .shopGroceriesSubhead{
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: var(--font-bold);
+    }
+    .shopGroceriesPara{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .newTempAlignment{
+        padding-top: 60px;
+        margin-bottom: -37px;
+    }
+    .todoContainer{
+           padding: 56px 20px 20px;
+    }
+    .todoText{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .maxWidthForToDo{
+        max-width: 500px;
+    }
+    .scrollingAboutUsContainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+    .scrollingImageTextContainer{
+        max-width: 50%;
+        min-width: 50%;
+    }
+    .scrollerImage{
+        position: absolute;
+        inset: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .scrollerImage ::after{
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+}
