@@ -5,6 +5,7 @@
 @font-face {
     font-family: "Bold";
     src: url("/assets/font/TTNorms-Bold.woff2") format("woff2");
+    font-weight: 700;
 }
 @font-face {
     font-family:"E-bold";

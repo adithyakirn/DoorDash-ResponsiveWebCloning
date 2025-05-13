@@ -1,0 +1,520 @@
+@media(min-width : 425px){
+    .backgroundStyle{
+        max-width: 425px;
+    }
+}
+@media (max-width: 768px) {
+    .getToKnowUsTexts {
+        flex: none;
+    }
+}
+@media (max-width: 767px) {
+    .adTwo {
+        max-width: 400px;
+    }
+}
+@media (max-width : 767px){
+    .qualitiesImages{
+        height: 180px;
+    }
+}
+@media (max-width: 480px) {
+    .tabsSelected {
+        border-bottom: 3px solid transparent;
+        box-shadow: 0 3px 0 #191919ff;
+        padding-bottom: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .tabsNonSelected {
+        border-bottom: 2px solid transparent;
+        box-shadow: 0 2px 0 #f1f1f1ff;
+        padding-bottom: 12px;
+    }
+}
+@media screen and (min-width: 1184px) {
+    .aboutUsMainContainer {
+        max-width: 1184px;
+    }
+}
+@media screen and (min-width: 1184px) {
+    .becomeaDasher {
+        margin: 0 calc(var(--usage-space-medium) + 1);
+        flex-flow: column;
+    }
+}
+@media screen and (min-width: 1184px) {
+    .startEarningButton {
+        justify-content: center;
+    }
+}
+@media (min-width: 768px) {
+    .adContainerMarginTop{
+        display: none;
+    }
+    .backgroundStyle{
+        max-width: 768px;
+    }
+    .mobileAndTab{
+        display: block;
+    }
+    .tab{
+        display: block;
+    }
+    .tabToDesktop{
+        display: block;
+    }
+    .backgroundContainer{
+        background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png);
+        padding: 0px 8px;
+        height: 650px;
+        overflow-x: hidden;
+        width: 100%;
+        z-index: 1;
+        -webkit-box-pack: center;
+        justify-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .logoAndAboutContainer{
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .doordashTextlogoContainer{
+        margin: 24px 0;
+    }
+    .inputContainer{
+        padding: 8px 8px 8px 20px;
+        width: 100%;
+        min-width: 352px;
+    }
+    .display{
+        display: none;
+    }
+    .displayNone{
+        display: block;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        margin-top: 16px;
+        z-index: 10;
+    }
+    .loginButton{
+        background-color: var(--button-primary);
+        min-height: 40px;
+        border-radius: 9999px;
+        width: auto;
+    }
+    .loginText{
+        color: rgb(243, 243, 243);
+        font-size: 18px;
+    }
+    .openAppButton{
+        background-color: #FFFFFF; 
+        min-height: 40px;    
+        border-radius: 9999px;  
+        width: auto; 
+    }
+    .openAppText{
+        color: var(--subhead-color);
+        font-size: 18px;
+    }
+    .navBar{
+        padding: 0 24px 0 16px;
+    }
+    .inputContainer{
+        width: 100%;
+    }
+    .adTwoContainer{
+        display: none;
+    }
+    .becomeDasherImageContaier img{
+        width: 124px;
+        height: 124px;
+    }
+    .becomeDasherImageContaier{
+        margin-right: 64px;
+    }
+    .aboutUsContainer{
+        margin: 32px 0 32px 0;
+    }
+    .mobile{
+        display: none;
+    }
+    .qualitiesImage{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .qualiiesTemplate{
+        justify-content: center;
+        flex-direction: row;
+    }
+    .marginMinus{
+        margin-bottom: -56px;
+    }
+    .qualitiesSeparator{
+        display: flex;
+        align-content: space-between;
+        gap: 60px;
+        max-width: 1184px;
+    }
+    .qualitiesPara{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .qualitiesSubhead{
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 24px;
+    }
+    .marginPara{
+        margin-top: 20px;
+    }
+    .qualitiesTexts{
+        max-width: 400px;
+        margin-top: auto;
+        margin-bottom: auto;
+        position: relative;
+        z-index: 10;
+    }
+    .qualitiesHeader{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .qualitiesButton{
+        min-height: 40px;
+        width: auto;
+    }
+    .qualitiesButtonContainer{
+        margin-top: 30px;
+    }
+    .qualitiesText{
+        font-size: 16px;
+        line-height: 22px;
+        font-family: var(--font-bold);
+    }
+    .secondTemplate{
+        padding: 80px 20px 20px 20px;
+    }
+    .rowReverse{
+        flex-direction: row-reverse;
+    }
+    .paddingBottom{
+        padding-bottom: 24px;
+    }
+    .shopGroceriesMainContainer {
+        background: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png) center center / cover;
+        position: relative;
+        height: 600px;
+        width: 100%;
+        margin: 4px 0 0 0;
+    }
+    .shopGroceriesHeader{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .shopGroceriesSubhead{
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: var(--font-bold);
+    }
+    .shopGroceriesPara{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .newTempAlignment{
+        padding-top: 60px;
+        margin-bottom: -36px;
+    }
+    .todoContainer{
+           padding: 60px 20px 40px;
+    }
+    .todoText{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .maxWidthForToDo{
+        max-width: 500px;
+    }
+    .scrollingAboutUsContainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .scrollingImageTextContainer{
+        max-width: 50%;
+        min-width: 50%;
+    }
+    .scrollerImage{
+        inset: 0px;
+        width: 100%;
+        height: 100%;
+        min-height: 344px;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .scrollerImage::after{
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+    .marginContainer{
+        margin: 0;
+    }
+    .tabletTodoText{
+        font-size:40px ;
+        max-width: 90%;
+    }
+    .scrollingSubHead{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .alchoholText{
+        font-size: 14px;
+        line-height: 20px;
+        font-family: var(--font-med);
+    }
+    .paddingForEndCreditsContainer{
+        padding: 48px 0;
+    }
+    .citiesTextsContainer{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 16px;
+        width: 100%;
+    }
+    .footerHeaderContainer{
+        text-align: left;
+        flex: 1 1 0%;
+        padding: 32px 0;
+    }
+    .alchoholContainer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .getToKnowUsFlex{
+        flex: 1 1 0%;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .finallyOverContainer{
+        flex-direction: row;
+    }
+    .languageSelectorContainer{
+        padding: 0 12px;
+        margin-bottom: 4px;
+    }
+    .marginZero{
+        margin: 0;
+    }
+    .letUsHelpU{
+        text-align: left;
+    }
+    .finallyOverTexts{
+        margin: 0;
+    }
+    .SocialsContainer{
+        margin-bottom: 8px;
+    }
+    .tabsNonSelected{
+        border-bottom: 2px solid #f1f1f1ff;
+    }
+
+}
+@media (min-width : 1024px){
+    .doordashtextContainer{
+        margin-left: 12px;
+    }
+    .desktop{
+        display: block;
+    }
+    .backgroundStyle{
+        max-width: 1024px;
+    }
+    .mobileAndTab{
+        display: none;
+    }
+    .aboutText{
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        max-width: 750px;
+    }
+    .aboutTextContainer{
+        max-width: 750px;
+    }
+    .inputContainer{
+        max-width: 380px;
+    }
+    .scrollerImage{
+        min-width: 470px;
+    }
+    .appInstallPlatforms{
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    .aboutUsContainer{
+        flex-direction: row;
+    }
+    .getToKnowUsTexts{
+        flex: none;
+    }
+    .endTitle{
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+    .tab{
+        display: none;
+    }
+    .languageSelectorContainer{
+        margin-bottom: 0;
+    }
+    .SocialsContainer{
+        margin-bottom: 4px;
+    }
+    .tabToDesktop{
+        display: block;
+    }
+    .tabsNonSelected{
+        border-bottom: 2px solid #f1f1f1ff;
+    }
+    
+}
+@media (min-width:1470px) {
+    .backgroundStyle{
+        max-width: 1470px;
+    }
+    
+}
+@media (min-width : 1184px) {
+    .arrow{
+        background-color: #eb1700ff;
+        border-radius: 50%;
+    }
+    .mobileAndTab{
+        display: none;
+    }
+    .laptop{
+        display: block;
+    }
+    .backgroundStyle{
+        max-width: 1470px;
+    }
+    .tab{
+        display: none;
+    }
+    .arrowsvg{
+        fill: #ffffff;
+    }
+    .aboutUsSeparatingContainer{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .becomeaDasher{
+        flex-direction: column;
+        min-width: 360px;
+        box-sizing: border-box;
+    }
+    .tabToDesktop{
+        display: block;
+    }
+    .becomeDasherImageContaier img{
+        width: 154px;
+        height: 154px;
+        box-sizing: border-box;
+    }
+    .becomeDasherImageContaier{
+        display: flex;
+        justify-content: center;
+        margin-right: 64px;
+        box-sizing: border-box;
+    }
+    .dasherHeader{
+        text-align: center;
+    }
+    .dasherSubHead{
+        margin-top: 8px;
+        text-align: center;
+    }
+    .aboutUsMainContainer{
+        margin: 0 auto;
+    }
+    .aboutUsContainer{
+        margin: 96px 0;
+        padding: 12px;
+    }
+    .becomeDasherTextContainer{
+        min-height: 160px;
+        box-sizing: border-box;
+    }
+    .startEarningText{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .endCreditsContainer{
+        width: 100%;
+        max-width: 1130px;
+        padding: 48px 0;
+        margin: 0px auto;
+    }
+    .margninNone{
+        margin: 0;
+    }
+    .scrollingAboutUsContainer{
+        max-width: 1184px;
+    }
+    .backgroundStyle{
+        width: 100%;
+        background-color: rgb(254, 241, 238);
+        display: flex;
+        justify-content: center;
+    }
+    .laptopImage{
+        inset: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .scrollingImageTextContainer{
+        min-height: 552px;
+        max-width: 50%;
+    }
+    .qualitiesImage {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .scrollerImage{
+        min-height: 552px;
+    }
+    .footer{
+        margin: 0 12px ;
+    }
+    .paddingZero{
+        padding: 0;
+    }
+    .languageSelectorContainer{
+        margin: 0;
+    }
+    .SocialsContainer{
+        margin-bottom: 4px ;
+    }
+    .desktop{
+        display: block;
+    }
+    .emptyDiv{
+        width: 4px;
+    }
+}
