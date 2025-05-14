@@ -10,6 +10,8 @@
     --button-primary:#eb1700ff;
     --subhead-color:#6b6b6b;
     --secondary-white:rgb(225 225 225);
+    --para-white:rgb(229 228 228);
+    --button-color:rgb(242 242 242);
 }
 .about-us-container {
     box-sizing: border-box;
@@ -779,7 +781,7 @@ body{
     padding: 0 12px;
 }
 .qualitiesText{
-    color: var(--base-color-white);
+    color: var(--button-color);
     font-family: var(--font-bold), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
     font-weight: 100;
@@ -828,7 +830,7 @@ body{
 }
 .shopGroceriesHeader{
     text-align: center;
-    color: var(--secondary-white);
+    color: var(--para-white);
     filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
     max-width: 90%;
     margin: 20px 0 0 0;
@@ -858,7 +860,7 @@ body{
 }
 .shopGroceriesPara{
     text-align: center;
-    color: var(--base-color-white);
+    color: var(--para-white);
     filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
     margin-top: 10px;
     font-family: var(--font-med);
@@ -1440,6 +1442,5 @@ body{
     display: none;
 }
 .backgroundStyle{
-    display: initial;
-    max-width: 375px;
+    display: contents;
 }

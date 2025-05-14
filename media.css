@@ -1,8 +1,4 @@
-@media(min-width : 425px){
-    .backgroundStyle{
-        max-width: 425px;
-    }
-}
+
 @media (max-width: 768px) {
     .getToKnowUsTexts {
         flex: none;
@@ -51,9 +47,6 @@
 @media (min-width: 768px) {
     .adContainerMarginTop{
         display: none;
-    }
-    .backgroundStyle{
-        max-width: 768px;
     }
     .mobileAndTab{
         display: block;
@@ -111,7 +104,6 @@
     }
     .loginText{
         color: rgb(243, 243, 243);
-        font-size: 18px;
     }
     .openAppButton{
         background-color: #FFFFFF; 
@@ -337,9 +329,6 @@
     .desktop{
         display: block;
     }
-    .backgroundStyle{
-        max-width: 1024px;
-    }
     .mobileAndTab{
         display: none;
     }
@@ -391,12 +380,6 @@
     }
     
 }
-@media (min-width:1470px) {
-    .backgroundStyle{
-        max-width: 1470px;
-    }
-    
-}
 @media (min-width : 1184px) {
     .arrow{
         background-color: #eb1700ff;
@@ -407,9 +390,6 @@
     }
     .laptop{
         display: block;
-    }
-    .backgroundStyle{
-        max-width: 1470px;
     }
     .tab{
         display: none;
