@@ -59,7 +59,7 @@
     }
     .backgroundContainer{
         background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png);
-        padding: 0px 8px;
+        padding: 0px 0px;
         height: 650px;
         overflow-x: hidden;
         width: 100%;
@@ -243,6 +243,13 @@
     .scrollingImageTextContainer{
         max-width: 50%;
         min-width: 50%;
+    }
+    .arrow{
+        background-color: #eb1700ff;
+        border-radius: 50%;
+    }
+        .arrowsvg {
+        fill: #ffffff;
     }
     .scrollerImage{
         inset: 0px;
