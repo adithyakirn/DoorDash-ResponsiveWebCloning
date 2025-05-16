@@ -2,16 +2,16 @@
 :root{
     --base-color-red-60:#eb1700ff;
     --base-color-white: rgb(255 255 255);
-    --text-color:#323232;
+    --text-color:#191919ff;
     --font-reg:"Regular";
     --font-bold:"Bold";
     --font-med:"Medium";
     --font-ebold:"E-bold";
     --button-primary:#eb1700ff;
-    --subhead-color:#6b6b6b;
-    --secondary-white:rgb(225 225 225);
-    --para-white:rgb(229 228 228);
-    --button-color:rgb(242 242 242);
+    --subhead-color:#606060ff;
+    --secondary-white:#fff;
+    --para-white:#fff;
+    --button-color:#fff;
 }
 .about-us-container {
     box-sizing: border-box;
@@ -1084,6 +1084,7 @@ body{
     display: flex;
     min-height: 40px;
     border-radius: 50%;
+    background-color: #f1f1f1ff;
     transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     cursor: pointer;
     text-align: center;
@@ -1120,7 +1121,7 @@ body{
 .footerHeader{
     margin:0 0 8px 0;
     padding: 0;
-    color: hsl(0, 0%, 83%);
+    color:rgb(255, 255, 255);;
     font-family: var(--font-med);
     font-size: 16px;
     font-weight: 500;
@@ -1149,7 +1150,7 @@ body{
     margin-top: 8px;
 }
 .alchoholTextTemplate{
-    color: #b8b8b8;
+    color: rgb(196, 196, 196);
     font-family: var(--font-med);
     font-size: 14px;
     font-weight: 400;
@@ -1205,7 +1206,7 @@ body{
     margin-top: 8px;
 }
 .getToKnowUsAboutText{
-    color: rgb(175 175 175);;
+    color: rgb(196, 196, 196);
     font-family: var(--font-med);
     font-size: 14px;
     font-weight: 500;
@@ -1308,7 +1309,7 @@ body{
     line-height: 18px;
     font-family: var(--font-med);
     font-size: 12px;
-    color: rgb(175 175 175);
+    color: rgb(196, 196, 196);
     font-weight: 500;
     box-sizing: border-box;
 }
