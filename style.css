@@ -972,9 +972,11 @@ body{
     margin:0 0  20px 0;
     color: var(--text-color);
     font-family: var(--font-bold);
-    font-size: 32px;
+    font-size: 18px;
+    /*font-size: 32px;
+    line-height: 40px;*/      /*Sometimes They Use this Values*/
     font-weight: 700;
-    line-height: 40px;
+    line-height: 22px;
     letter-spacing: -0.01px;
     text-decoration: none;
     text-transform: none;
