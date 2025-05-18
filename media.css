@@ -1,4 +1,18 @@
-
+@media (min-width:769px) {
+        .aboutText{
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        max-width: 750px;
+    }
+    .aboutTextContainer{
+        max-width: 750px;
+    }
+    .inputContainer{
+        max-width: 380px;
+    }
+}
 @media (max-width: 768px) {
     .getToKnowUsTexts {
         flex: none;
@@ -8,8 +22,6 @@
     .adTwo {
         max-width: 400px;
     }
-}
-@media (max-width : 767px){
     .qualitiesImages{
         height: 180px;
     }
@@ -20,8 +32,6 @@
         box-shadow: 0 3px 0 #191919ff;
         padding-bottom: 12px;
     }
-}
-@media (max-width: 480px) {
     .tabsNonSelected {
         border-bottom: 2px solid transparent;
         box-shadow: 0 2px 0 #f1f1f1ff;
